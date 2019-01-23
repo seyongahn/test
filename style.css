@@ -1,0 +1,23 @@
+html, body, .container {
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.clock {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: url(images/bg.svg);
+}
+
+
+.hands {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
